@@ -1,0 +1,46 @@
+<!-- KAIVALYA AJIT DESHPANDE TASK 2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <title>Personal portfolio website</title>
+</head>
+<body>
+    <header> 
+    <nav>
+        <div class="logo">
+          Portfolio
+        </div>
+        <div class="menu">
+         <a href="#"><i class="fa fa-home"></i> Home</a>
+         <a href="#"><i class="fa fa-user"></i>About</a>
+         <a href="#"><i class="fa fa-book"></i>Portfolio</a>
+         <a href="#"><i class="fa fa-phone"></i>Galary</a>
+        </div>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-whatsapp"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+        </div>
+    </nav>    
+       <div class="info">
+            <h3>HI THERE !</h3>
+            <h1>I'M <span>KAIVALYA DESHPANDE</span> </h1>
+            <p>Professionally i am doing my B.Tech Degree in Computer Science in Third Year through S K N Sinhgad College of Engineering, Korti. I am good at front end Development and i have knowledge of HTML, CSS, Bootstrap well. <br> </p>
+            <h4>Download my Resume and contact me for more information</h4>
+            <a href="https://drive.google.com/file/d/1x4TQ0hxUUwGawHME-OX_CFBIsctPYVKs/view?usp=share_link" download="true"> Resume <i class="fa fa-download"></i>
+       </div>
+    </header>
+    <script>
+        gsap.from('nav',{duration:2,x:'-100%'})
+        gsap.from('.icons',{duration:1,y:'100%',delay:2})
+        ;
+    </script>
+</body>
+</html>
